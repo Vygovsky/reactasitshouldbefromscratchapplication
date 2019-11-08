@@ -1,0 +1,39 @@
+.subhead_menu {
+    display: flex;
+}
+
+.subhead_menu a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    line-height: 20px;
+    border: 1px solid transparent;
+    padding: 0 10px;
+    transition: all 0.35s;
+    color: #abafa8;
+}
+
+.subhead_menu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.subhead_menu li {
+    display: flex;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.subhead {
+    grid-area: subhead;
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
